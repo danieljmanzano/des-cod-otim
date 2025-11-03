@@ -1,0 +1,50 @@
+entrada:
+1
+22
+(3,3) (4,3) (1,4) (0,1) (3,0) (6,3) (2,6) (4,2) (0,4) (2,0) (1,2) (1,1) (3,1) (2,3) (5,2) (3,5) (5,0) (0,0) (0,6) (6,4) (4,4) (4,5)
+
+saída esperada:
+64
+
+---------- SAÍDAS DAS EXECUÇÕES SEM OTIMIZAÇÃO:
+
+- PRIMEIRA EXECUÇÃO -
+64
+Tempo de execução: 1.7745218110003407 segundos
+
+- SEGUNDA EXECUÇÃO -
+64
+Tempo de execução: 1.7845267279999462 segundos
+
+- TERCEIRA EXECUÇÃO -
+64
+Tempo de execução: 1.780723883999599 segundos
+
+----------- SAÍDAS DAS EXECUÇÕES COM OTIMIZAÇÃO (memoization):
+
+- PRIMEIRA EXECUÇÃO -
+64
+Tempo de execução: 0.0006467759994848166 segundos
+
+- SEGUNDA EXECUÇÃO -
+64
+Tempo de execução: 0.000751718999708828 segundos
+
+- TERCEIRA EXECUÇÃO -
+64
+Tempo de execução: 0.0007334440006161458 segundos
+
+------------ EXTRA: SAÍDAS DO CÓDIGO QUE APLICA PROGRAMAÇÃO DINÂMICA (aplica memoização "manualmente"):
+
+- PRIMEIRA EXECUÇÃO -
+64
+Tempo de execução: 0.00027974000022368273 segundos
+
+- SEGUNDA EXECUÇÃO -
+64
+Tempo de execução: 0.0002740050003922079 segundos
+
+- TERCEIRA EXECUÇÃO -
+64
+Tempo de execução: 0.00029078300030960236 segundos
+
